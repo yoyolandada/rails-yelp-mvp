@@ -11,5 +11,8 @@ require 'faker'
 
 category = ["chinese", "italian", "japanese", "french", "belgian"]
 5.times do |i|
-  Restaurant.create(category: category.sample,  name: Faker::Restaurant.name, address:   Faker::Address.street_address, phone_number:   Faker::PhoneNumber.phone_number)
+  Restaurant.create(category: category.sample,
+                    name: Faker::Restaurant.name,
+                    address: Faker::Address.street_address,
+                    phone_number: Faker::PhoneNumber.phone_number)
 end

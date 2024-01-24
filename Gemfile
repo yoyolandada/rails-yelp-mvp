@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+# FAKER GEM
+gem 'faker', '~> 3.2', '>= 3.2.3'
+
 #SIMPLE FORM GEM
 gem "simple_form"
 
